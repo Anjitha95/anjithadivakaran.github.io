@@ -203,6 +203,13 @@ body > .container-fluid{
   font-size: 1em;
   color: #f0f0e6;
   border-color: #f0f0e6; }
+  #scroli {
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 1.5em;
+  color: #202423;
+  border: solid 2px #202423;
+  border-radius: 50%; }
 
   @import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
 .about-tools ul li, .contact-social-icons ul a li {
@@ -430,4 +437,8 @@ body > .container-fluid{
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important; }
-/* ---- End Time line --->
+/* ---- End Time line ---*/
+.back-to-top {
+  display: none; }
+  .back-to-top.visible {
+    display: block; }
